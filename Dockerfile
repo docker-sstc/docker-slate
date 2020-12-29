@@ -1,5 +1,5 @@
 # https://github.com/lord/slate/wiki/Docker#alternative-approach-with-ruby-25-alpine
-FROM ruby:2.5-alpine
+FROM ruby:3.0.0-alpine
 
 RUN apk update \
   && apk add coreutils git make g++ nodejs
